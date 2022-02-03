@@ -1,10 +1,11 @@
 import React from 'react'
-interface Users {
+export interface Users {
   id: string
   name: string
   email: string
   title: string
   organization: string
+  token: string
 }
 interface SearchPanelProps {
   users: Users[]

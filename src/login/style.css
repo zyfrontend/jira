@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    margin-top: 200px;
+    display: flex;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    position: relative;
+    flex-direction: column;
+}
+
+button {
+    width: 80%;
+    margin: 20px auto;
+    padding: 5px;
+    color: white;
+    background-color: #61dafb;
+    border: none;
+    cursor: pointer;
+}
+
+div {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
